@@ -1,0 +1,26 @@
+/*
+ script purpose :
+
+ --- datawarehouse(database) and schemas creation ---
+
+ */
+
+
+-- switching to master database --
+
+USE master;
+
+-- creating database named 'datawarehouse'--
+
+CREATE DATABASE datawarehouse;
+USE datawarehouse;
+
+
+
+-- creating schemas --
+
+CREATE SCHEMA bronze
+GO
+CREATE SCHEMA siler
+GO
+CREATE SCHEMA gold

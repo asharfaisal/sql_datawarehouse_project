@@ -2,7 +2,13 @@
 
 This project showcases the development of a complete data warehouse solution, from raw data ingestion to structured data modeling. It demonstrates data engineering best practices for building a scalable and efficient warehouse architecture using modern data warehousing concepts.
 
+# Data Architecture 🏗️
 ![Data Warehouse Architecture](docs/data_architecture.png)
+- **Bronze Layer:** Stores raw data collected directly from source systems. Data is loaded from CSV files into the SQL Server database without major transformations.
+
+- **Silver Layer:** Focuses on data cleaning, validation, and transformation to improve data quality and prepare it for further processing.
+
+- **Gold Layer:** Contains refined and business-ready data structured using a star schema, optimized for reporting and analytical use cases.
 
 ## 📖 Project Overview
 

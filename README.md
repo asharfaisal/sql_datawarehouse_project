@@ -39,24 +39,19 @@ The goal of this project is to build a modern data warehouse using **SQL Server*
 * **Documentation:** Create clear documentation of the data architecture and data model to support both technical and business users.
 
 ## 📂 Repository Structure
-
 data-warehouse-project/
 │
 ├── datasets/                         # Raw source data (ERP and CRM CSV files)
-│
 ├── docs/                             # Project documentation and architecture assets
 │   ├── data_architecture.png         # Overall system architecture diagram
 │   ├── data_catalog.md               # Dataset catalog with field descriptions and metadata
 │   ├── data_integration.png          # Data integration flow diagram
 │   ├── data_model.png                # Star schema / data model design
-│
 ├── scripts/                          # SQL scripts for ETL and data processing
 │   ├── bronze/                       # Raw data ingestion scripts
 │   ├── silver/                       # Data cleaning and transformation scripts
 │   ├── gold/                         # Analytical data model creation scripts
-│
 ├── tests/                            # Data quality and validation tests
-│
 ├── README.md                         # Project overview and setup instructions
 ├── LICENSE                           # License information
 ├── .gitignore                        # Git ignored files and folders

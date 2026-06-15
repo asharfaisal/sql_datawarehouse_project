@@ -2,6 +2,8 @@
 
 This project showcases the development of a complete data warehouse solution, from raw data ingestion to structured data modeling. It demonstrates data engineering best practices for building a scalable and efficient warehouse architecture using modern data warehousing concepts.
 
+![Data Warehouse Architecture](docs/data_architecture.png)
+
 ## 📖 Project Overview
 
 This project focuses on building a complete data warehouse solution using modern data engineering practices. It includes:

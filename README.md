@@ -41,21 +41,25 @@ The goal of this project is to build a modern data warehouse using **SQL Server*
 ## 📂 Repository Structure
 data-warehouse-project/
 │
-├── datasets/                         # Raw source data (ERP and CRM CSV files)
-├── docs/                             # Project documentation and architecture assets
-│   ├── data_architecture.png         # Overall system architecture diagram
-│   ├── data_catalog.md               # Dataset catalog with field descriptions and metadata
-│   ├── data_integration.png          # Data integration flow diagram
-│   ├── data_model.png                # Star schema / data model design
-├── scripts/                          # SQL scripts for ETL and data processing
-│   ├── bronze/                       # Raw data ingestion scripts
-│   ├── silver/                       # Data cleaning and transformation scripts
-│   ├── gold/                         # Analytical data model creation scripts
-├── tests/                            # Data quality and validation tests
-├── README.md                         # Project overview and setup instructions
-├── LICENSE                           # License information
-├── .gitignore                        # Git ignored files and folders
-└── objectives.txt                    # Project objectives and scope
+├── datasets/ # Raw source data (ERP and CRM CSV files)
+│
+├── docs/ # Project documentation and architecture
+│ ├── data_architecture.png # Overall system architecture diagram
+│ ├── data_catalog.md # Dataset metadata and field descriptions
+│ ├── data_integration.png # Data integration flow diagram
+│ └── data_model.png # Star schema / data model design
+│
+├── scripts/ # SQL scripts for ETL and data processing
+│ ├── bronze/ # Raw data ingestion scripts
+│ ├── silver/ # Data cleaning & transformation scripts
+│ └── gold/ # Analytical model (reporting layer)
+│
+├── tests/ # Data quality and validation tests
+│
+├── README.md # Project overview and setup guide
+├── LICENSE # License information
+├── .gitignore # Ignored files and folders
+└── objectives.txt # Project objectives and scope
 
 ## 🌟 About Me
 I am a data enthusiast with a strong focus on data engineering and analytics. I primarily work with SQL to build, transform, and analyze data to generate meaningful business insights.

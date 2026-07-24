@@ -2,6 +2,26 @@
 
 This project showcases the development of a complete data warehouse solution, from raw data ingestion to structured data modeling. It demonstrates data engineering best practices for building a scalable and efficient warehouse architecture using modern data warehousing concepts.
 
+## 📊 Power BI Dashboard
+
+The final layer of this project is an interactive Power BI dashboard built on the Gold Layer star schema. It transforms the curated warehouse data into meaningful business insights through KPIs, trend analysis, product performance, and geographical visualizations.
+
+### Dashboard Preview
+
+![Sales Dashboard](scripts/powerbi/sales-dashboard.png)
+
+### Dashboard Highlights
+
+- 📈 Revenue and Sales Trend Analysis
+- 💰 Revenue, Customers & Average Order Value KPIs
+- 🌍 Sales Distribution by Country
+- 🛒 Best Selling Products
+- 📅 Interactive Date Filtering
+- 🏷️ Category & Sub-category Slicers
+
+For a detailed explanation of the dashboard and visuals, visit the **powerbi** folder.
+
+
 # Data Architecture 🏗️
 ![Data Warehouse Architecture](docs/data_architecture.png)
 🥉 **Bronze Layer:** Stores raw data collected directly from source systems. Data is loaded from CSV files into the SQL Server database without major transformations.
